@@ -55,7 +55,7 @@ def default() -> ml_collections.ConfigDict:
       'optim': {
           'objective': 'vmc',  # objective type. Either 'vmc' or 'wqmc'
           'iterations': 1000000,  # number of iterations
-          'optimizer': 'kfac',  # one of adam, kfac, lamb, none
+          'optimizer': 'adam',  # one of adam, kfac, lamb, none
           'lr': {
               'rate': 0.05,  # learning rate
               'decay': 1.0,  # exponent of learning rate decay
